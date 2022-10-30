@@ -8,3 +8,5 @@ technology comparison
 --Creating and Connecting Vue App Instances
 --Interpolation and Data Binding
 --Binding Attributes with the "v-bind" Directive
+--Understanding "methods" in Vue Apps
+--Working with Data inside of a Vue App
