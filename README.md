@@ -7,3 +7,4 @@ technology comparison
 02_Basics & Core Concepts - DOM Interaction with Vue :
 --Creating and Connecting Vue App Instances
 --Interpolation and Data Binding
+--Binding Attributes with the "v-bind" Directive
