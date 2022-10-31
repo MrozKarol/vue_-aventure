@@ -12,3 +12,5 @@ technology comparison
 --Understanding "methods" in Vue Apps
 --Working with Data inside of a Vue App
 2_Understanding Event Binding
+-Events & Methods
+-Working with Event Arguments
