@@ -14,3 +14,4 @@ technology comparison
 2_Understanding Event Binding
 -Events & Methods
 -Working with Event Arguments
+-Using the Native Event Object
