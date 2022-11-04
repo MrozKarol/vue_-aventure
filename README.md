@@ -16,3 +16,5 @@ technology comparison
 -Working with Event Arguments
 -Using the Native Event Object
 -Exploring Event Modifiers
+3_Sing the native event object
+-Introducing Computed Properties"
