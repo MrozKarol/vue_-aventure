@@ -17,4 +17,5 @@ technology comparison
 -Using the Native Event Object
 -Exploring Event Modifiers
 3_Sing the native event object
--Introducing Computed Properties"
+-Introducing Computed Properties
+-Working with Watchers
