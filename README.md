@@ -17,5 +17,8 @@ technology comparison
 -Using the Native Event Object
 -Exploring Event Modifiers
 3_Sing the native event object
--Introducing Computed Properties
--Working with Watchers
+-Introducing Computed Properties"
+\_Basics styling starting setup
+-Adding CSS Classes Dynamically
+4_Rendering Conditional Content & Lists
+-Rendering Content Conditionally
