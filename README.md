@@ -21,4 +21,5 @@ technology comparison
 \_Basics styling starting setup
 -Adding CSS Classes Dynamically
 4_Rendering Conditional Content & Lists
--Rendering Content Conditionally
+-Rendering Content Conditionall
+-v-if, v-else and v-else-if
