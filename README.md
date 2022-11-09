@@ -23,3 +23,5 @@ technology comparison
 4_Rendering Conditional Content & Lists
 -Rendering Content Conditionall
 -v-if, v-else and v-else-if
+-Rendering Lists of Data
+-Removing List Items
