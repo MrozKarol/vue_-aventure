@@ -57,6 +57,7 @@ section {
 }
 
 header h1 {
+
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
     margin: 3rem auto;
     border-radius: 10px;
@@ -65,7 +66,7 @@ header h1 {
     background-color: #58004d;
     color: white;
     text-align: center;
-    width: 90%;
+    width: 100%;
     max-width: 40rem;
 }
 
@@ -83,7 +84,7 @@ header h1 {
     margin: 0;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
     border: 1px black solid;
-    margin: 1rem auto;
+    margin: 2rem auto;
     border-radius: 10px;
     padding: 1rem;
     text-align: center;
@@ -95,7 +96,7 @@ header h1 {
     font-size: 2rem;
     border-bottom: 4px solid #ccc;
     color: #ae359e;
-    margin: 0 0 1rem 0;
+    margin: 2rem 0 2rem 0;
 }
 
 #app button {
