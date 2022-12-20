@@ -14,7 +14,6 @@
         name="Julie Jones"
         phone-number="0090 43456"
         email-address="julie@localhost.com"
-        is-favorite="0"
       ></friend-contact>
     </ul>
   </section>
