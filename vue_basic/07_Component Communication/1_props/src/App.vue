@@ -9,7 +9,7 @@
         :key="friend.id"
         :id="friend.id"
         :name="friend.name"
-        :phone-number="friend.number"
+        :phone-number="friend.phone"
         :email-address="friend.email"
         :is-favorite="friend.isFavorite"
         @toggle-favorite="toggleFavoriteStatus"
