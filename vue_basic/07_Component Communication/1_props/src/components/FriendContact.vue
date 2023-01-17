@@ -15,7 +15,7 @@
         {{ emailAddress }}
       </li>
     </ul>
-    <button @click="$emit('delate-freind', id)">Delate</button>
+    <button @click="delateFreind">Delate</button>
   </li>
 </template>
 
@@ -48,7 +48,7 @@ export default {
       // },
     },
   },
-  emits: ['toggle-favorite', 'delate-freind'],
+  emits: ['toggle-favorite', ],
   // emits: {
   //   'toggle-favorite': function (id) {
   //     if (id) {
@@ -72,9 +72,9 @@ export default {
     toggleFavorite() {
       this.$emit('toggle-favorite', this.id);
     },
-    // delateFreind() {
-    //   this.$emit('delate-freind', this.id);
-    // },
+    delateFreind() {
+      this.$emit('delate-freind', this.id);
+    },
   },
 };
 </script>
