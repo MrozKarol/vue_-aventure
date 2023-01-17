@@ -4,7 +4,10 @@
       :topic-title="activeTopic && activeTopic.title"
       :text="activeTopic && activeTopic.fullText"
     ></active-element>
-    <knowledge-base :topics="topics" @select-topic="activateTopic"></knowledge-base>
+    <knowledge-base
+      :topics="topics"
+      @select-topic="activateTopic"
+    ></knowledge-base>
   </div>
 </template>
 
@@ -32,10 +35,26 @@ export default {
       activeTopic: null,
     };
   },
+  provide() {
+    return {
+      topics: this.topics,
+    };
+  },
+
   methods: {
     activateTopic(topicId) {
       this.activeTopic = this.topics.find((topic) => topic.id === topicId);
     },
+  },
+  mounted() {
+    setTimeout(() => {
+      this.topics.push({
+        id: 'events',
+        title: 'Events',
+        description: 'Event are important in Veu',
+        fullText: 'Vue is a great framework better then React and Angular',
+      });
+    }, 3000);
   },
 };
 </script>
